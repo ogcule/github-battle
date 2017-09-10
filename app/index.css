@@ -3,9 +3,8 @@ body {
 }
 
 .container {
-  margin: 0 auto;
   max-width: 1200px;
-
+  margin: 0 auto;
 }
 
 ul {
@@ -16,14 +15,38 @@ li {
   list-style-type: none;
 }
 
+.avatar {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.space-list-items {
+  margin-bottom: 7px;
+}
+
 .languages {
   display: flex;
   justify-content: center;
 }
 
 .languages li {
-  cursor: pointer;
-  font-weight: bold;
   margin: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
 
+.popular-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.popular-item {
+  margin: 20px;
+  text-align: center;
+}
+
+.popular-rank {
+  font-size: 20px;
+  margin: 10px;
 }
