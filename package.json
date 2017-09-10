@@ -4,10 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-<<<<<<< HEAD
     "create": "webpack",
-=======
->>>>>>> d4a79120542a68ead5de2eb9c247100666b799a2
     "start": "webpack-dev-server --open"
   },
   "author": "",
