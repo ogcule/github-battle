@@ -4,14 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "create": "webpack"
+    "create": "webpack",
+    "start": "webpack-dev-server --open"
   },
   "author": "",
   "license": "ISC",
   "babel": {
-     "presets": ["env", "react"]
-   },
+    "presets": [
+      "env",
+      "react"
+    ]
+  },
   "dependencies": {
+    "prop-types": "^15.5.10",
     "react": "^15.6.1",
     "react-dom": "^15.6.1"
   },
